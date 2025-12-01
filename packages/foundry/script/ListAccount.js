@@ -55,7 +55,7 @@ async function main() {
 
   if (!privateKey) {
     console.log(
-      "🚫️ You don't have a deployer account. Run `yarn generate` first"
+      "🚫️ You don't have a deployer account. Run `pnpm generate` first"
     );
     return;
   }
