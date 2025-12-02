@@ -39,7 +39,7 @@ jobs:
       - name: Install foundry-toolchain
         uses: foundry-rs/foundry-toolchain@v1
         with:
-          version: nightly
+          version: stable
 
       - name: Run foundry node, deploy contracts (& generate contracts typescript output)
         env:
